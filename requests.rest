@@ -1,0 +1,15 @@
+GET http://localhost:8000/student/result
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMjQiLCJpYXQiOjE2NTUzODMxMjN9.wBwTdunrC4LDam3736FaP18zkMeUGpMBWqW-f1aNO-4
+
+###
+
+POST http://localhost:8000/student/login
+Content-Type: application/json
+
+{
+    "studid":"23"
+}
+
+###
+GET http://localhost:8000/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMjMiLCJpYXQiOjE2NTUzODMxOTV9.a7DfVxPvV6dAQ0pvnNUf0J4410ZTlWTMu95nJYvBVXw
